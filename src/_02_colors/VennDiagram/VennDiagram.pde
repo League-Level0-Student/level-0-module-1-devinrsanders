@@ -1,1 +1,13 @@
 size(600,600);
+fill(255, 0, 0, 100);
+ellipse(300, 300, 200, 200);
+fill(0, 255, 0, 100);
+ellipse(230,200, 200, 200);
+fill(0, 0, 255, 100);
+ellipse(350, 200, 200, 200);
+textSize(15);
+text("I", 180, 160);
+textSize(15);
+text("can't", 340, 160);
+textSize(15);
+text("think of anything.", 240, 360);
