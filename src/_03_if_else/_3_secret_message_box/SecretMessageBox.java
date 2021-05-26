@@ -19,9 +19,14 @@ public class SecretMessageBox {
 		int password = 1234;
 		String question = JOptionPane.showInputDialog(null, "What is the password");
 		if (question.equals("1234")) {
-			JOptionPane.showMessageDialog(null, "yay you did the thing");
-			
+			JOptionPane.showMessageDialog(null, "yay you did the thing...ya know, the number thing");
 		}
+		else {
+				JOptionPane.showMessageDialog(null,"pfft no");
+				
+		}
+			
+		
 		
 	}
 }

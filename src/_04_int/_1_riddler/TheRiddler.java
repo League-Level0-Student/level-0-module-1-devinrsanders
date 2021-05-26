@@ -1,4 +1,7 @@
 package _04_int._1_riddler;
+
+import javax.swing.JOptionPane;
+
 //    Copyright (c) The League of Amazing Programmers 2013-2019
 //    Level 0
 
@@ -19,7 +22,27 @@ public class TheRiddler {
 		// 6. Add some more riddles
 
 		// 2. Make a pop up to show the score.
+		int score = 0;
+		String question = JOptionPane.showInputDialog("What is tall when it's young and short when its old?");
+		if  (question.equals("candle")) {
+			JOptionPane.showMessageDialog(null, "Correct");
+			score++;
+		}
+		else {
+			JOptionPane.showMessageDialog(null, "WRONG!");
+		}
+		String answer = JOptionPane.showInputDialog("what word in the dictionary is spelled incorrectly?");
+		if (answer.equals("incorrectly")); {
+			JOptionPane.showMessageDialog(null, "Correct");
+			score++;
+		}
+		else {
+			JOptionPane.showMessageDialog(null, "WRONG!");
 		
+		}
+		
+		
+	
 	}
 }
 
