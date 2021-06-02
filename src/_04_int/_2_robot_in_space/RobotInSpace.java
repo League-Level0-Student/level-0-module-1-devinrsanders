@@ -16,6 +16,7 @@ import org.jointheleague.graphical.robot.Robot;
 public class RobotInSpace implements KeyEventDispatcher {
 
 	Robot rob = new Robot("mini");
+	
 
 	/*
 	 * Make the Robot move around the screen when the arrow keys are pressed...
@@ -26,6 +27,24 @@ public class RobotInSpace implements KeyEventDispatcher {
 	 */
 
 	private void moveRobot(int keyPressed) throws InterruptedException {
+		
+		System.out.println(keyPressed);
+		if (keyPressed == 39) {
+			rob.setAngle(90);
+			rob.move(10);
+		}
+		if (keyPressed == 40) {
+			rob.setAngle(180);
+			rob.move(10);
+		}
+		if (keyPressed == 37) {
+			rob.setAngle(270);
+			rob.move(10);
+		}
+		if (keyPressed == 38) {
+			rob.setAngle(360);
+			rob.move(10);
+		}
 		// 2. Print out the keyPressed variable and write down the numbers for
 		// each arrow key
 

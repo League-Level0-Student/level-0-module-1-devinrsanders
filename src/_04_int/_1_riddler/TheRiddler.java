@@ -32,7 +32,7 @@ public class TheRiddler {
 			JOptionPane.showMessageDialog(null, "WRONG!");
 		}
 		String answer = JOptionPane.showInputDialog("what word in the dictionary is spelled incorrectly?");
-		if (answer.equals("incorrectly")); {
+		if (answer.equals("incorrectly")) {
 			JOptionPane.showMessageDialog(null, "Correct");
 			score++;
 		}
@@ -40,6 +40,7 @@ public class TheRiddler {
 			JOptionPane.showMessageDialog(null, "WRONG!");
 		
 		}
+		JOptionPane.showMessageDialog(null, "Your score is "+score);
 		
 		
 	
