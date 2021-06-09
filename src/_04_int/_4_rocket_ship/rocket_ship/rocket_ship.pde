@@ -7,7 +7,9 @@ void setup() {
 }
 
 void draw() {
+  background(0, 0, 40);
 
+  y-=5;
     fill(random(255), 0, 0);
     ellipse(x, y + 130, 90, 90);
     fill(248, 128, 0);
