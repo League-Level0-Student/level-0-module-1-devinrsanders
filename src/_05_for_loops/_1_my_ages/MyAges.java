@@ -14,12 +14,15 @@ public class MyAges {
 		// Change the value of yourCurrentAge to match your age
 		int yourCurrentAge = 12;
 		while (age<= yourCurrentAge) {
-			JOptionPane.showMessageDialog(null, age);
+			System.out.println(age);
 			age++;
 		
 		
 		}
-		
+		for (int i = 0; i <= 12; i++) {
+			
+			System.out.println(i);
+		}
 				
 		
 		//  WHILE LOOP. Start a while loop to repeat while age <= yourCurrentAge
